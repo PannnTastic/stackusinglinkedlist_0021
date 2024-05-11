@@ -60,7 +60,7 @@ int main (){
     int pil = 0;
     int value;
 
-    while (pil != 5){
+    while (pil != 4){
         cout << "1.Push\n";
         cout << "2.Pop\n";
         cout << "3.Peek\n";
@@ -97,5 +97,6 @@ int main (){
                 cout << "Invalid Choice. Try Again." << endl;
                 break;
         }
+        cout << endl;
     }
 }
