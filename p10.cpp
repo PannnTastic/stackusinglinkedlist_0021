@@ -26,29 +26,30 @@ class stack{
         cout << "Push Value : " << value << endl;
         return value;
     }
-};
 
-void pop (){
-    if (Empty()){
-        cout << "Stack is Empty" << endl;
-    }
-    cout << "Popped Value : " << top->data << endl;
-}
 
-void peek (){
-    if (top == NULL){
-        cout << "List is Empty" << endl;
-    }
-    else {
-        node *current = top;
-        while (current != NULL){
-            cout << current->data << " " << endl;
-            current = current -> next;
+    void pop (){
+        if (empty()){
+            cout << "Stack is Empty" << endl;
         }
-        cout << endl;
+        cout << "Popped Value : " << top->data << endl;
     }
-}
 
-bool empty (){
-    return top == NULL;
-}
+    void peek (){
+        if (top == NULL){
+            cout << "List is Empty" << endl;
+        }
+        else {
+            node *current = top;
+            while (current != NULL){
+                cout << current->data << " " << endl;
+                current = current -> next;
+            }
+            cout << endl;
+        }
+    }
+
+    bool empty (){
+        return top == NULL;
+    }
+};
