@@ -60,7 +60,7 @@ int main (){
     int pil = 0;
     int value;
 
-    while (choice != 5){
+    while (pil != 5){
         
     }
 }
