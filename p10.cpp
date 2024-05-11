@@ -29,5 +29,8 @@ class stack{
 };
 
 void pop (){
-    
+    if (Empty()){
+        cout << "Stack is Empty" << endl;
+    }
+    cout << "Popped Value : " << top->data << endl;
 }
