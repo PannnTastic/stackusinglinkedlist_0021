@@ -74,6 +74,15 @@ int main (){
                 cin >> value;
                 st.push(value);
                 break;
+            case 2 : 
+                if (!st.empty()){
+                    st.pop();
+                }
+                else {
+                    cout << "Stack is Empty.Cannot Pop." << endl;
+                }
+                break;
+            
         }
     }
 }
