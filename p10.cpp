@@ -69,7 +69,11 @@ int main (){
         cin >> pil;
 
         switch (pil){
-            
+            case 1 : 
+                cout << "Enter the Value To Push : ";
+                cin >> value;
+                st.push(value);
+                break;
         }
     }
 }
