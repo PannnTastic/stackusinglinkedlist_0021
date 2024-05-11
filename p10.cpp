@@ -67,5 +67,9 @@ int main (){
         cout << "4.Exit\n";
         cout << "Masukkan Pilihan Anda : ";
         cin >> pil;
+
+        switch (pil){
+            
+        }
     }
 }
