@@ -48,3 +48,7 @@ void peek (){
         cout << endl;
     }
 }
+
+bool empty (){
+    
+}
