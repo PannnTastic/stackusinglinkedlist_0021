@@ -90,7 +90,12 @@ int main (){
                     cout << "Stack is Empty. No top Value." << endl;
                 }
                 break;
-            
+            case 4 : 
+                cout << "Exiting Program." << endl;
+                break;
+            default : 
+                cout << "Invalid Choice. Try Again." << endl;
+                break;
         }
     }
 }
