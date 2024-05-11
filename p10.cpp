@@ -55,5 +55,12 @@ class stack{
 };
 
 int main (){
-    
+    stack st;
+
+    int pil = 0;
+    int value;
+
+    while (choice != 5){
+        
+    }
 }
