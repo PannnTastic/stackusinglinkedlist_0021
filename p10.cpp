@@ -18,5 +18,12 @@ class stack{
         stack(){
             top = NULL;
         }
-    
+    int push (int value){
+        node* newnode = new node();
+        newnode->data = value;
+        newnode->next = top;
+        top =  newnode;
+        cout << "Push Value : " << value << endl;
+        return value;
+    }
 };
